@@ -9,9 +9,106 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>welcome to the website</h1>
-    <p>this is a e commerce site</p>
-
+    <div class="container">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-color: #e3f2fd;">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="images/logo.png" alt="">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#shoes">Shoes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#backpack">Backpack</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#gadgets">Gadgtes</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Looking more
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#shirts">Shirts</a></li>
+                      <li><a class="dropdown-item" href="#jeans">Jeans</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#jeans-for-men">Jeans for men</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </div>
+    <div class="container">
+        <div id="carouselExample" class="carousel slide caro-bg">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row align-items-center">
+                    <div class="col-md-7">
+                        <h1>Mi 32" Full HD LED TV</h1>
+                        <p>Enjoy the finest tv from the world best tv manufracture.A 32 inch full hd panel which can make your content watching experience more realistic.</p>
+                        <h1 class="price">$999</h1>
+                        <button class="buy-now-button">Buy Now</button>
+                    </div>
+                    <div class="col-md-5">
+                        <img src="images/banner-images/tv.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row align-items-center">
+                    <div class="col-md-7">
+                        <h1>Senheiser Gamming Headphone</h1>
+                        <p>Enjoy the finest headphone from the world best soundset manufracture.A triple audio driver which can make your listining experience more realistic.</p>
+                        <h1 class="price">$299</h1>
+                        <button class="buy-now-button">Buy Now</button>
+                    </div>
+                    <div class="col-md-5">
+                        <img src="images/banner-images/headphone.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row align-items-center">
+                    <div class="col-md-7">
+                        <h1>X-box 5 Gamming Console</h1>
+                        <p>Enjoy the finest gamming console from the world best electic manufracture.Worlds fastest cpu which can make your gamming experience more realistic.</p>
+                        <h1 class="price">$1999</h1>
+                        <button class="buy-now-button">Buy Now</button>
+                    </div>
+                    <div class="col-md-5">
+                        <img src="images/banner-images/xbox.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+    
     <script src="bootstrap\js\bootstrap.bundle.min.js"></script>
 </body>
 </html>
